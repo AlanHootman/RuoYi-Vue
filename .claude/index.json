@@ -1,0 +1,159 @@
+{
+  "timestamp": "2025-08-30T16:29:18.000Z",
+  "project_name": "RuoYi-Vue",
+  "project_version": "3.9.0",
+  "modules": [
+    {
+      "name": "ruoyi-admin",
+      "path": "./ruoyi-admin",
+      "type": "Spring Boot Application",
+      "description": "web服务入口模块，Spring Boot应用主模块",
+      "entry_points": [
+        "src/main/java/com/ruoyi/RuoYiApplication.java"
+      ],
+      "config_files": [
+        "src/main/resources/application.yml",
+        "src/main/resources/application-druid.yml",
+        "pom.xml"
+      ],
+      "api_controllers": [
+        "src/main/java/com/ruoyi/web/controller/**/*.java"
+      ],
+      "coverage": {
+        "config": "complete",
+        "api": "complete",
+        "tests": "missing",
+        "documentation": "partial"
+      }
+    },
+    {
+      "name": "ruoyi-common",
+      "path": "./ruoyi-common",
+      "type": "Shared Library",
+      "description": "通用工具模块，提供公共注解、配置、异常处理等",
+      "entry_points": [
+        "src/main/java/com/ruoyi/common/config/RuoYiConfig.java"
+      ],
+      "config_files": [
+        "pom.xml"
+      ],
+      "coverage": {
+        "config": "complete",
+        "api": "complete", 
+        "tests": "missing",
+        "documentation": "partial"
+      }
+    },
+    {
+      "name": "ruoyi-framework",
+      "path": "./ruoyi-framework",
+      "type": "Framework Module",
+      "description": "核心框架模块，包含安全配置、数据源配置等",
+      "config_files": [
+        "pom.xml"
+      ],
+      "coverage": {
+        "config": "partial",
+        "api": "partial",
+        "tests": "missing",
+        "documentation": "partial"
+      }
+    },
+    {
+      "name": "ruoyi-system",
+      "path": "./ruoyi-system",
+      "type": "Business Module",
+      "description": "系统管理模块，包含用户、角色、权限管理等核心业务",
+      "config_files": [
+        "pom.xml"
+      ],
+      "coverage": {
+        "config": "partial",
+        "api": "partial",
+        "tests": "missing",
+        "documentation": "partial"
+      }
+    },
+    {
+      "name": "ruoyi-quartz",
+      "path": "./ruoyi-quartz",
+      "type": "Scheduler Module", 
+      "description": "定时任务模块，基于Quartz实现任务调度",
+      "config_files": [
+        "pom.xml"
+      ],
+      "coverage": {
+        "config": "partial",
+        "api": "partial",
+        "tests": "missing",
+        "documentation": "partial"
+      }
+    },
+    {
+      "name": "ruoyi-generator",
+      "path": "./ruoyi-generator",
+      "type": "Code Generator",
+      "description": "代码生成模块，支持前后端代码自动生成",
+      "config_files": [
+        "pom.xml"
+      ],
+      "coverage": {
+        "config": "partial",
+        "api": "partial",
+        "tests": "missing",
+        "documentation": "partial"
+      }
+    },
+    {
+      "name": "ruoyi-ui",
+      "path": "./ruoyi-ui",
+      "type": "Vue.js Frontend",
+      "description": "前端UI模块，基于Vue.js + Element UI",
+      "entry_points": [
+        "src/main.js"
+      ],
+      "config_files": [
+        "package.json",
+        "vue.config.js"
+      ],
+      "api_layer": [
+        "src/api/**/*.js"
+      ],
+      "views": [
+        "src/views/**/*.vue"
+      ],
+      "coverage": {
+        "config": "complete",
+        "api": "complete",
+        "tests": "missing",
+        "documentation": "partial"
+      }
+    }
+  ],
+  "database": {
+    "type": "MySQL",
+    "schema_files": [
+      "./sql/ry_20250522.sql",
+      "./sql/quartz.sql"
+    ]
+  },
+  "coverage_summary": {
+    "estimated_files": 500,
+    "scanned_files": 120,
+    "coverage_percentage": 24,
+    "missing_areas": [
+      "单元测试覆盖",
+      "集成测试策略",
+      "API文档完整性",
+      "部署文档"
+    ]
+  },
+  "ignored_patterns": [
+    "node_modules/**",
+    ".git/**",
+    "target/**",
+    "build/**",
+    "*.log",
+    "*.bin"
+  ]
+}
