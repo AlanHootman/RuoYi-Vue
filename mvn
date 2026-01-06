@@ -1,0 +1,8 @@
+#!/bin/bash
+# RuoYi-Vue 项目 Maven 包装脚本
+# 自动使用项目特定的 settings_hs.xml
+
+PROJECT_SETTINGS=/Users/jianghoumin/.sdkman/candidates/maven/3.6.3/conf/settings_hs.xml
+
+# 执行 Maven 命令，使用指定的 settings.xml
+~/.sdkman/candidates/maven/current/bin/mvn "$@" -s "$PROJECT_SETTINGS"

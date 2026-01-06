@@ -1,0 +1,20 @@
+{
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "/Users/jianghoumin/.sdkman/candidates/java/8.0.472-amzn",
+      "default": true
+    }
+  ],
+  "maven.view": "hierarchical",
+  "rebel.xml.generation.invariant.token": {
+    "%2Fruoyi-admin": "PGFwcGxpY2F0aW9uIGdlbmVyYXRlZC1ieT0idnNjb2RlIj48Y2xhc3NwYXRoPjxkaXIgbmFtZT0iL1VzZXJzL2ppYW5naG91bWluL1NvdXJjZXMvZ2l0aHViL1J1b1lpLVZ1ZS9ydW95aS1hZG1pbi90YXJnZXQvY2xhc3NlcyI+PC9kaXI+PC9jbGFzc3BhdGg+PC9hcHBsaWNhdGlvbj4=",
+    "%2Fruoyi-common": "PGFwcGxpY2F0aW9uIGdlbmVyYXRlZC1ieT0idnNjb2RlIj48Y2xhc3NwYXRoPjxkaXIgbmFtZT0iL1VzZXJzL2ppYW5naG91bWluL1NvdXJjZXMvZ2l0aHViL1J1b1lpLVZ1ZS9ydW95aS1jb21tb24vdGFyZ2V0L2NsYXNzZXMiPjwvZGlyPjwvY2xhc3NwYXRoPjwvYXBwbGljYXRpb24+",
+    "%2Fruoyi-framework": "PGFwcGxpY2F0aW9uIGdlbmVyYXRlZC1ieT0idnNjb2RlIj48Y2xhc3NwYXRoPjxkaXIgbmFtZT0iL1VzZXJzL2ppYW5naG91bWluL1NvdXJjZXMvZ2l0aHViL1J1b1lpLVZ1ZS9ydW95aS1mcmFtZXdvcmsvdGFyZ2V0L2NsYXNzZXMiPjwvZGlyPjwvY2xhc3NwYXRoPjwvYXBwbGljYXRpb24+",
+    "%2Fruoyi-generator": "PGFwcGxpY2F0aW9uIGdlbmVyYXRlZC1ieT0idnNjb2RlIj48Y2xhc3NwYXRoPjxkaXIgbmFtZT0iL1VzZXJzL2ppYW5naG91bWluL1NvdXJjZXMvZ2l0aHViL1J1b1lpLVZ1ZS9ydW95aS1nZW5lcmF0b3IvdGFyZ2V0L2NsYXNzZXMiPjwvZGlyPjwvY2xhc3NwYXRoPjwvYXBwbGljYXRpb24+",
+    "%2Fruoyi-quartz": "PGFwcGxpY2F0aW9uIGdlbmVyYXRlZC1ieT0idnNjb2RlIj48Y2xhc3NwYXRoPjxkaXIgbmFtZT0iL1VzZXJzL2ppYW5naG91bWluL1NvdXJjZXMvZ2l0aHViL1J1b1lpLVZ1ZS9ydW95aS1xdWFydHovdGFyZ2V0L2NsYXNzZXMiPjwvZGlyPjwvY2xhc3NwYXRoPjwvYXBwbGljYXRpb24+",
+    "%2Fruoyi-system": "PGFwcGxpY2F0aW9uIGdlbmVyYXRlZC1ieT0idnNjb2RlIj48Y2xhc3NwYXRoPjxkaXIgbmFtZT0iL1VzZXJzL2ppYW5naG91bWluL1NvdXJjZXMvZ2l0aHViL1J1b1lpLVZ1ZS9ydW95aS1zeXN0ZW0vdGFyZ2V0L2NsYXNzZXMiPjwvZGlyPjwvY2xhc3NwYXRoPjwvYXBwbGljYXRpb24+"
+  },
+  "java.debug.settings.hotCodeReplace": "auto",
+  "java.compile.nullAnalysis.mode": "disabled"
+}

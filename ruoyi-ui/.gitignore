@@ -21,3 +21,9 @@ selenium-debug.log
 
 package-lock.json
 yarn.lock
+
+# Markdown files
+*.md
+
+# Docs directory
+docs/
